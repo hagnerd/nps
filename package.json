@@ -1,0 +1,15 @@
+{
+  "name": "@hagnerd/nps",
+  "version": "1.0.0",
+  "description": "A CLI for adding and modifying your npm scripts",
+  "main": "index.js",
+  "homepage": "https://github.com/hagnerd/nps",
+  "license": "MIT",
+  "dependencies": {
+    "enquirer": "^2.3.0",
+    "fs-jetpack": "^2.2.2"
+  },
+  "bin": {
+    "nps": "./cli.js"
+  }
+}
