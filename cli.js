@@ -18,7 +18,7 @@ async function run() {
     const isFile = jetpack.exists("./package.json");
 
     if (!isFile) {
-      throw new Error(`No 'package.json' file found`);
+      throw `No 'package.json' file found`;
     }
 
     // 2. If it exists read the file
@@ -54,7 +54,7 @@ async function run() {
 
     console.log(`Successfully added command`);
   } catch (e) {
-    console.log("Exiting scripter");
+    console.log("Exiting nps");
 
     if (e) {
       if (e === "cancelling") return;
